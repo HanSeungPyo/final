@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+
+
+*{
+	padding:0px;
+	margin: 0px;
+}
+#hd_topBox{
+	width: 100%;
+	height: 50px;
+	background-color: #F70909;
+	opacity: 0.7;
+}
+
+#hd_topContent{
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#hd_topLeft{
+	float: left;
+	width: 30%;
+}
+#hd_topLogo{
+	width: 90%;
+	height: 50px;
+}
+
+#hd_Logo{
+	width: 100%;
+
+}
+
+#hd_topCenter{
+	float: left;
+	width: 25%;
+	height: 50px;
+	margin-left: 8%;
+}
+#hd_topSearch{
+	width: 100%;
+	
+}
+
+.hd_search{
+	display: inline-block !important;
+	width: 80% !important;
+}
+
+#hd_searchBtn{
+	width: 13.3%;
+	border-radius: 4px;
+	margin-left: 2%;
+}
+
+#hd_searchGroup{
+	float: right;
+	width: 258px;
+	height: 32px;
+	margin-top: 3%;
+	
+}
+
+.hd_search{
+	float: left;
+    margin-left: 10px;
+    
+    border: none;
+    height: 32px;
+    width: 216px;
+    padding-left: 1%;
+    outline-style: none;
+   	color: #d50c0c;
+}
+
+#hd_topRight{
+	float: right;
+}
+
+#hd_info{
+	margin-top: 2%;
+	margin-bottom: 0px;
+	color: white;
+}
+
+#hd_info > li{
+	display: inline;
+	padding: 0px 5px;
+	font-size: 15px;
+}
+#hd_topInfo{
+	margin-top: 11%;	
+}
+
+.hd_dropdown{
+	padding-top: 11%;
+}
+#hd_meberId{
+	font-size: 15px;
+}
+/* 클릭x */
+a.hd_joinLink:link {
+    color: white;
+    text-decoration: none;
+}
+/* 클릭하고 난 뒤 */
+a.hd_joinLink:visited {
+ 	color: white;
+    text-decoration: none;
+}
+/* 마우스오버 시 */
+a.hd_joinLink:hover {
+	color: white;
+	text-decoration: none;
+}
