@@ -24,9 +24,7 @@
 			</div>
 			
 		</div>
-		<div id="nnn">
-		
-		</div>
+	
 	</section>
 
 		<%-- <jsp:include page=""></jsp:include> --%>
