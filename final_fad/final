@@ -1,0 +1,109 @@
+select * from tab
+
+create table MEMBER
+(
+    ID         VARCHAR2(255)    NOT NULL, 
+    PW         VARCHAR2(255)    NULL, 
+    NAME       VARCHAR2(255)    NULL, 
+    PUM1       NUMBER(3)        NULL, 
+    PUM2       NUMBER(3)        NULL, 
+    ADDRESS    VARCHAR2(255)    NULL, 
+    AGENCY     VARCHAR2(255)    NULL, 
+    PHONE      VARCHAR2(255)    NULL, 
+    EMAIL1     VARCHAR2(255)    NULL, 
+    EMAIL2     VARCHAR2(255)    NULL, 
+    GENDER     VARCHAR2(30)     NULL, 
+    YEAR       DATE             NULL, 
+    DAY        DATE             NULL, 
+    POINT      NUMBER(8)        NULL, 
+    STATE      NUMBER(2)        NULL, 
+    REPAY      NUMBER(8)        NULL, 
+    CONSTRAINT MEMBER_PK PRIMARY KEY (ID)
+)
+create sequence member_seq
+	start with 1
+	increment by 1
+	nomaxvalue
+
+CREATE TABLE RESERVE
+(
+    NUM         NUMBER(8)        NOT NULL, 
+    ID          VARCHAR2(255)    NULL, 
+    YEAR        DATE             NULL, 
+    RENUM       NUMBER(8)        NULL, 
+    MONTH       DATE             NULL, 
+    DAY         DATE             NULL, 
+    RECOUNTS    NUMBER(8)        NULL   
+)	
+
+ALTER TABLE RESERVE
+    ADD CONSTRAINT FK_RESERVE_NUM_STORE_NUM FOREIGN KEY (NUM)
+        REFERENCES STORE (NUM)
+        
+ALTER TABLE RESERVE
+    ADD CONSTRAINT FK_RESERVE_ID_MEMBER_ID FOREIGN KEY (ID)
+        REFERENCES MEMBER (ID)
+        
+CREATE TABLE PAYMENT
+(
+    ID          VARCHAR2(255)    NOT NULL, 
+    NAME        VARCHAR2(255)    NULL, 
+    ACCOUNTS    NUMBER(8)        NULL, 
+    REG_DATE    DATE             NULL, 
+    CONSTRAINT PAYMENT_PK PRIMARY KEY (ID)
+)
+ALTER TABLE PAYMENT
+    ADD CONSTRAINT FK_PAYMENT_ID_MEMBER_ID FOREIGN KEY (ID)
+        REFERENCES MEMBER (ID)
+
+CREATE TABLE STORE
+(
+    NUM         NUMBER(8)        NOT NULL, 
+    NAME        VARCHAR2(255)    NULL, 
+    ADDRESS     VARCHAR2(255)    NULL, 
+    PNUM1       NUMBER(8)        NULL, 
+    PNUM2       NUMBER(8)        NULL, 
+    CATEGORY    VARCHAR2(255)    NULL, 
+    IMG1        VARCHAR2(255)    NULL, 
+    IMG2        VARCHAR2(255)    NULL, 
+    PHONE       VARCHAR2(255)    NULL, 
+    LIKES       NUMBER(2,2)      NULL, 
+    RS_PAY      NUMBER(8)        NULL, 
+    COUNTS      NUMBER(8)        NULL, 
+    STATE       NUMBER(2)        NULL, 
+    CONSTRAINT STORE_PK PRIMARY KEY (NUM)
+)        
+create sequence store_seq
+	start with 1
+	increment by 1
+	nomaxvalue
+
+CREATE TABLE NOTICE
+(
+    NUM         NUMBER(8)         NOT NULL, 
+    TITLE       VARCHAR2(255)     NULL, 
+    CONTENTS    VARCHAR2(4000)    NULL, 
+    WRITER      VARCHAR2(255)     NULL, 
+    COUNTS      NUMBER(8)         NULL, 
+    REG_DATE    DATE              NULL, 
+    CONSTRAINT NOTICE_PK PRIMARY KEY (NUM)
+)	
+create sequence notice_seq
+	start with 1
+	increment by 1
+	nomaxvalue
+	
+CREATE TABLE REPLY
+(
+    NUM         NUMBER(8)         NOT NULL, 
+    ID          VARCHAR2(255)     NULL, 
+    CONTENTS    VARCHAR2(4000)    NULL, 
+    REG_DATE    DATE              NULL, 
+    CONSTRAINT REPLY_PK PRIMARY KEY (NUM)
+)	
+
+create sequence reply_seq
+	start with 1
+	increment by 1
+	nomaxvalue
+        
