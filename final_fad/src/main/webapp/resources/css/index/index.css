@@ -6,20 +6,18 @@
 #in_middleTop{
 	width: 100%;
 	height: 150px;
-	background-color: rgba(0,0,0,0.3); 
 	position: absolute;
 }
 
 #in_middleTop_1{
-	width: 15%;
+	width: 200px;
 	height:150px;
 	margin : 0 auto;
-	background-color: red;
 }
 #in_logo_semi{
-	width: 100%;
+	width: 200px;
 	height: 150px;
-
+	z-index: 0;
 }
 
 #in_middleCenter{
@@ -33,7 +31,13 @@
 #in_middleCenter_1{
 	width: 100%;
 	height: 150px;
-	background-color: yellow;
+	background-color:red;
 	margin-top:550px;
+	position: relative;
+}
+.in_mainPic{
+	width: 100%;
+	height: 700px;
+	z-index: -1;
 }
 

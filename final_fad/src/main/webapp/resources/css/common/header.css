@@ -13,7 +13,7 @@
 }
 
 #hd_topContent{
-	width: 80%;
+	width: 1224px;
 	height: 50px;
 	margin: 0 auto;
 }
@@ -23,12 +23,12 @@
 	width: 30%;
 }
 #hd_topLogo{
-	width: 90%;
+	width: 260px;
 	height: 50px;
 }
 
 #hd_Logo{
-	width: 100%;
+	width: 260px;
 
 }
 
@@ -52,11 +52,12 @@
 	width: 13.3%;
 	border-radius: 4px;
 	margin-left: 2%;
+	height: 33px;
 }
 
 #hd_searchGroup{
 	float: right;
-	width: 258px;
+	width: 300px;
 	height: 32px;
 	margin-top: 3%;
 	

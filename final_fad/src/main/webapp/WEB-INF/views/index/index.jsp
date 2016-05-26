@@ -10,8 +10,7 @@
 </head>
 <body id="in_body">
 
-		<%-- <jsp:include page=""></jsp:include> --%>
-
+		<jsp:include page="/WEB-INF/views/common/header.jsp"></jsp:include>
 	<section>
 		<div id="in_middleBox">
 			<div id="in_middleTop">
@@ -20,6 +19,7 @@
 				</div>
 			</div>
 			<div id="in_middleCenter">
+				<img class="in_mainPic" src="${pageContext.request.contextPath}/resources/img/index/in_main_1.jpg">
 				<div id="in_middleCenter_1"></div>
 			</div>
 			
@@ -27,7 +27,7 @@
 	
 	</section>
 
-		<%-- <jsp:include page=""></jsp:include> --%>
+		<jsp:include page="/WEB-INF/views/common/footer.jsp"></jsp:include>
 
 
 </body>
