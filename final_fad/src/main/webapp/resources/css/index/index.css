@@ -1,43 +1,150 @@
 @CHARSET "UTF-8";
 
-#in_body{
-	margin: 0px;
-}
-#in_middleTop{
-	width: 100%;
-	height: 150px;
-	position: absolute;
-}
+	#hd_topBox{
+		z-index: 4 !important;
+	}
+	
+	#in_middleTop{
+		width: 100%;
+		height: 180px;
+		z-index: 3;
+		position: absolute;
+	}
+	#in_middleTop_1{
+		width: 200px;
+		height:120px;
+		margin : 0 auto;
+		margin-top: 60px;
+	}
+	#in_logo_semi{
+		width: 200px;
+		height: 120px;
+		z-index: 3;
+		position: absolute;
+	}
+	
 
-#in_middleTop_1{
-	width: 200px;
-	height:150px;
-	margin : 0 auto;
-}
-#in_logo_semi{
-	width: 200px;
-	height: 150px;
-	z-index: 0;
-}
+	.in_text{
+		width: 270px;
+		height: 300px;
+		background-color: rgba(0,0,0,0.4);
+		position: fixed;
+		z-index: 4;
+		text-align: left !important;
+		padding-top: 0px !important;
+		padding-left: 10px;
+		bottom: 0px !important;
+		top : 200px;
+		left: 1100px !important;
+		
+	}
+	
+	
 
-#in_middleCenter{
-	width: 100%;
-	height: 700px;
-	z-index: -1;
-	background-color: green;
-	overflow: hidden;
-}
-
-#in_middleCenter_1{
-	width: 100%;
-	height: 150px;
-	background-color:red;
-	margin-top:550px;
-	position: relative;
-}
-.in_mainPic{
-	width: 100%;
-	height: 700px;
-	z-index: -1;
-}
-
+	#in_middleCenter{
+		width: 100%;
+		height: 750px;
+		position : absolute;
+		overflow: hidden;
+	}
+	.in_mainPic{
+		width: 100%;
+		height: 750px !important;
+	}
+	.in_btn{
+		font-size: 70px !important;
+		margin-top: -110px !important;
+	}
+	.in_indicators{
+		top: 75%;
+		height: 30px;
+	}
+	
+	
+	#in_middleBottom{
+		width: 100%;
+		height: 150px;
+		background-color: rgba(242,89,64,0.8);
+		z-index: 4;
+		position: absolute;
+		margin-top: 600px;
+	}
+	
+	
+	/* 메뉴 */
+	.in_menuTab{
+		border: 0px !important;
+		
+	}
+	
+	.in_tab a{
+		border-radius:0px !important;
+		border: 0px !important;
+		margin-right: 0px !important;
+		color : white !important;
+		text-align: center;
+		background-color: #8c2f24 !important;
+		font-size: 20px;
+		font-weight: bold;
+		letter-spacing: 3px;
+	}
+	.in_tab{
+		width: 25%;
+	}
+	.in_tab a:HOVER{
+		background-color: rgba(0,0,0,0.5) !important;
+		cursor: pointer !important;
+	}
+	
+	.in_tab a:FOCUS{
+		background-color: rgba(0,0,0,0) !important;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+		background-color: rgba(0,0,0,0) !important;
+	}
+	.in_tabCon{
+		width: 100%;
+		height: 103px;
+	}
+	.in_content{
+		width: 33.3%;
+		height: 103px;
+		position: relative;
+		float: left;
+	}
+	.in_content:HOVER{
+		background-color: rgba(0,0,0,0.5) !important;
+	}
+	.in_content_1{
+		width: 100%;
+		height: 70px;
+		overflow: hidden;
+	}
+	.in_content_2{
+		width: 100%;
+		height: 33px;
+		color:white;
+		font-size: 17px;
+		text-align: center;
+		font-weight:bold;
+		margin-top : 4px;
+		letter-spacing: 2px;
+		font-family: 굴림;
+	}
+	.in_content_11{
+		width: 80px;
+		height: 60px;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	.in_icon{
+		width: 80px;
+		height: 60px;
+	}
+	
+	
+	
+	#footerBox{
+		margin-top: 0 !important;
+		position:absolute !important;
+	}
