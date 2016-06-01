@@ -1,1 +1,38 @@
 @CHARSET "UTF-8";
+
+
+
+#middle_center{
+		width: 80%;
+		margin: 2% auto;
+		
+	}
+	
+.writebtn{
+		color: white;
+	    border-color: #F55E61;
+	    background-color: #F55E61 !important;
+	}
+
+#notice_form{
+	width: 100%;
+	margin: 5% 5%;
+	height: 80%;
+}
+
+#form-group label{
+	width: 10%;
+	
+}
+
+
+#ct_writeTitle{
+	text-align: center;
+	font-size: large;
+}
+
+#title,#writer,#textArea{
+	width: 70%;
+	
+}
+
