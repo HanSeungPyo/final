@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+#me_mainname {
+	margin-left: 18.5%;
+	margin-top: 10%;
+}
+
+#me_agree1_1 {
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: hsl(0, 0%, 98%);
+	text-align: center;
+}	
+#me_agree1_1 > textarea {
+	width: 850px;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 20px;	
+}
+#me_agree2_1 {
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: hsl(0, 0%, 98%);
+	text-align: center;
+	margin-top: 30px;
+}
+#me_agree2_1 > textarea {
+	width: 850px;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 20px;	
+}
+#me_agree3_1 {
+	width: 900px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: hsl(0, 0%, 98%);
+	text-align: center;
+	margin-top: 30px;
+}
+#me_agree4_1 {
+	width: 900px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: hsl(0, 0%, 98%);
+	text-align: center;
+}
+#agreename {
+	width: 80px;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 23px;
+}
+#agreename1 {
+	width: 285px;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+#checkbox1 {
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+#me_agreebutton {
+	width: 410px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#me_btn1 {
+	width: 200px;
+}
+#me_btn2 {
+	width: 200px;
+}
+#textarea1 {
+	font-size: 11px;
+    line-height: 18px;
+    color: #888;
+}
+#textarea2 {
+	font-size: 11px;
+    line-height: 18px;
+    color: #888;
+}
+
+
+
