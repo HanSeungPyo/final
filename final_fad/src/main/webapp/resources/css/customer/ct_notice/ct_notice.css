@@ -6,6 +6,10 @@
 	padding: 0px;
 }
 
+section{
+	padding-top: 5%;
+}
+
 
 #middleBox{
 	width: 100%;
@@ -16,10 +20,12 @@
 #middle_top{
 	width: 80%;
 	height: 200px;
-	margin: 10px auto;
+	margin: 0px auto;
 	border: 0px solid #eeeeee;
 	background-color:#eeeeee;
 	border-radius:10px;
+	
+	
 }
 
 #middle_center{

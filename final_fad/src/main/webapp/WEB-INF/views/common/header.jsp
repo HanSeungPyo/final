@@ -9,7 +9,9 @@
 			<div id="hd_topContent">
 				<div id="hd_topLeft">
 					<div id="hd_topLogo">
+						<a href="${pageContext.request.contextPath}/index/index">
 						<img src="${pageContext.request.contextPath}/resources/img/common/hd_logo.png" id="hd_Logo">
+						</a>
 					</div>
 				</div>
 				<div id="hd_topCenter">
