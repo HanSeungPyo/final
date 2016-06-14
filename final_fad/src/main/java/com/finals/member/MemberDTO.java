@@ -1,171 +1,180 @@
-
 package com.finals.member;
 
 import java.sql.Date;
 
 public class MemberDTO {
 
-	private String id;
+	    private String id;
 
-    private String pw;
+	    private String pw;
+	    
+	    private String pw2;
 
-    private String name;
+		private String name;
 
-    private int pum1;
+	    private int pum1;
 
-    private int pum2;
+	    private int pum2;
 
-    private String address;
+	    private String address;
 
-    private String agency;
+	    private String agency;
 
-    private String phone;
+	    private String phone;
 
-    private String email1;
+	    private String email;
 
-    private String email2;
+	    private String gender;
 
-    private String gender;
+	    private Date year;
+	    
+	    private Date month;
 
-    private Date year;
+		private Date day;
 
-    private Date day;
+	    private int point;
 
-    private int point;
+	    private int state;
 
-    private int state;
+	    private int repay;
 
-    private int repay;
+		public String getId() {
+			return id;
+		}
 
-	public String getId() {
-		return id;
-	}
+		public void setId(String id) {
+			this.id = id;
+		}
 
-	public void setId(String id) {
-		this.id = id;
-	}
+		public String getPw() {
+			return pw;
+		}
 
-	public String getPw() {
-		return pw;
-	}
+		public void setPw(String pw) {
+			this.pw = pw;
+		}
 
-	public void setPw(String pw) {
-		this.pw = pw;
-	}
+		public String getPw2() {
+			return pw2;
+		}
+		
+		public void setPw2(String pw2) {
+			this.pw2 = pw2;
+		}
+		public String getName() {
+			return name;
+		}
 
-	public String getName() {
-		return name;
-	}
+		public void setName(String name) {
+			this.name = name;
+		}
 
-	public void setName(String name) {
-		this.name = name;
-	}
+		public int getPum1() {
+			return pum1;
+		}
 
-	public int getPum1() {
-		return pum1;
-	}
+		public void setPum1(int pum1) {
+			this.pum1 = pum1;
+		}
 
-	public void setPum1(int pum1) {
-		this.pum1 = pum1;
-	}
+		public int getPum2() {
+			return pum2;
+		}
 
-	public int getPum2() {
-		return pum2;
-	}
+		public void setPum2(int pum2) {
+			this.pum2 = pum2;
+		}
 
-	public void setPum2(int pum2) {
-		this.pum2 = pum2;
-	}
+		public String getAddress() {
+			return address;
+		}
 
-	public String getAddress() {
-		return address;
-	}
+		public void setAddress(String address) {
+			this.address = address;
+		}
 
-	public void setAddress(String address) {
-		this.address = address;
-	}
+		public String getAgency() {
+			return agency;
+		}
 
-	public String getAgency() {
-		return agency;
-	}
+		public void setAgency(String agency) {
+			this.agency = agency;
+		}
 
-	public void setAgency(String agency) {
-		this.agency = agency;
-	}
+		public String getPhone() {
+			return phone;
+		}
 
-	public String getPhone() {
-		return phone;
-	}
+		public void setPhone(String phone) {
+			this.phone = phone;
+		}
 
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
 
-	public String getEmail1() {
-		return email1;
-	}
+		public String getEmail() {
+			return email;
+		}
 
-	public void setEmail1(String email1) {
-		this.email1 = email1;
-	}
+		public void setEmail(String email) {
+			this.email = email;
+		}
 
-	public String getEmail2() {
-		return email2;
-	}
+		public String getGender() {
+			return gender;
+		}
 
-	public void setEmail2(String email2) {
-		this.email2 = email2;
-	}
+		public void setGender(String gender) {
+			this.gender = gender;
+		}
 
-	public String getGender() {
-		return gender;
-	}
+		public Date getYear() {
+			return year;
+		}
 
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
+		public void setYear(Date year) {
+			this.year = year;
+		}
+		
 
-	public Date getYear() {
-		return year;
-	}
+	    public Date getMonth() {
+			return month;
+		}
 
-	public void setYear(Date year) {
-		this.year = year;
-	}
+		public void setMonth(Date month) {
+			this.month = month;
+		}
 
-	public Date getDay() {
-		return day;
-	}
+		public Date getDay() {
+			return day;
+		}
 
-	public void setDay(Date day) {
-		this.day = day;
-	}
+		public void setDay(Date day) {
+			this.day = day;
+		}
 
-	public int getPoint() {
-		return point;
-	}
+		public int getPoint() {
+			return point;
+		}
 
-	public void setPoint(int point) {
-		this.point = point;
-	}
+		public void setPoint(int point) {
+			this.point = point;
+		}
 
-	public int getState() {
-		return state;
-	}
+		public int getState() {
+			return state;
+		}
 
-	public void setState(int state) {
-		this.state = state;
-	}
+		public void setState(int state) {
+			this.state = state;
+		}
 
-	public int getRepay() {
-		return repay;
-	}
+		public int getRepay() {
+			return repay;
+		}
 
-	public void setRepay(int repay) {
-		this.repay = repay;
-	}
+		public void setRepay(int repay) {
+			this.repay = repay;
+		}
+	    
+	    
 
-    
-    
-	
 }
