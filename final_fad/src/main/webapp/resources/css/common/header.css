@@ -123,3 +123,26 @@ a.hd_joinLink:hover {
 	color: white;
 	text-decoration: none;
 }
+/* 로그인 */
+#modal-centerlogo {
+	width: 400px;
+	height: 80px;
+	margin: 0 auto;
+}
+#modal-id {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#modal-password {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#me_loginbtn{
+	width: 300px;
+	height:30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color:#FF6C6C;
+}

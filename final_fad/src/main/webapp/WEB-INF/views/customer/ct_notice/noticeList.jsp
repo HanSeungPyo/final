@@ -100,9 +100,12 @@
 								  <li id="notice_after"><a href="noticeList?curPage=${noticePage.lastNum+1}">&raquo;</a></li>
 									</c:if>
 								</ul>
-							<div id="middle_center_btn">
-								<a href="noticeWriteForm"><button type="button" class="notice_btn">공지사항작성</button></a>
-							</div>
+								
+							<c:if test="${member.id eq 'admin'}">
+								<div id="middle_center_btn">
+									<a href="noticeWriteForm"><button type="button" class="notice_btn">공지사항작성</button></a>
+								</div>
+							</c:if>
 							
 						</div>
 					</div>
@@ -114,6 +117,8 @@
 	<jsp:include page="/WEB-INF/views/customer/ct_chattModal.jsp"></jsp:include>
 
 </div>
-
+<c:if test="${member.id == null}">
+	<script src="${pageContext.request.contextPath}/resources/js/customer/ct_logIn.js" type="text/javascript"></script> 
+</c:if>
 </body>
 </html>
